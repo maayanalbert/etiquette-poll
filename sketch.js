@@ -54,8 +54,8 @@ function draw() {
     fill(ligterThanSecondary);
     //fill(spotColor[0], spotColor[1], spotColor[2]);
     textAlign(LEFT);
-    textSize(60);
-    text("How correct were my \nassumptions?", 50, 100);
+    textSize(30);
+    text("Throughout this semester, many of my instagram posts revolved \naround an unsaid understanding of etiquette. What do you think \nof these inferences?", 50, 100);
 
     textSize(15);
 
