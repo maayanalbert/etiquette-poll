@@ -10,6 +10,7 @@ var microwave;
 var cmu;
 var whiteboard;
 var buzzfeed;
+var mac;
 var polls = []
 
 
@@ -21,6 +22,7 @@ function preload() {
   cmu = loadImage("assets/cmu.png");
   whiteboard = loadImage("assets/whiteboard.png");
   buzzfeed = loadImage("assets/buzzfeed.png");
+  mac = loadImage("assets/mac.png");
 }
 
 function setup() {
@@ -32,13 +34,14 @@ function setup() {
 
     descriptions = ["Is it ok to borrow someone else's \ntools in studio without asking?",
                     "Should I take my food out from the \nmicrowave before the buzzer goes off?",
-                    "Should I keep my whiteboard drawings \nconfinded to a single section?",
-                    "Is it ok for netflix to autoplay \nthe next episode of a tv show?",
-                    "Is it ok for facebook to set default \nprivacy settings to public?",
-                    "Is it ok for buzzfeed to feature \nadds that look like content?",
-                    "Is it ok for cmu to put self serving \npropoganda around campus?"]
-    images = [tools, microwave, whiteboard, netflix, fb, buzzfeed, cmu];
-    hashtags = ["#studiosharing", "#crusis", "#entrainment", "#darkpatterns", 
+                    "Should I keep my whiteboard drawings \nconfined to a single section?",
+                    "Should Apple indicate where \nto open my laptop?",
+                    "Is it ok for Netflix to autoplay \nthe next episode of a tv show?",
+                    "Is it ok for Facebook to set default \nprivacy settings to public?",
+                    "Is it ok for Buzzfeed to feature \nadds that look like content?",
+                    "Is it ok for CMU to put self serving \npropoganda around campus?"]
+    images = [tools, microwave, whiteboard, mac, netflix, fb, buzzfeed, cmu];
+    hashtags = ["#studiosharing", "#crusis", "#entrainment", "#affordance", "#darkpatterns", 
     "#nudge", "#tactic", "#propoganda"];
 
     for(i = 0; i < images.length; i++){
