@@ -78,8 +78,8 @@ function Poll(xpos, ypos, textDescription, headerImage, hashtag){
     this.xpos = xpos;
     this.ypos = ypos;
     this.headerImage = headerImage;
-    this.yesCount = 0;
-    this.noCount = 0;
+    this.yesCount = 1;
+    this.noCount = 1;
     this.height = 510;
     this.width = 380;
     this.imageSize = 250;
