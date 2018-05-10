@@ -26,7 +26,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(3500, 880);
+    createCanvas(4000, 880);
     textFont('Avenir');
     textSize(15);
 
